@@ -1,0 +1,201 @@
+product_id,name,brand,category,price,discount,description,stock_quantity,store_location
+1,Bosch Home Appliance Model 211,Bosch,Home Appliances,449.88,25,Reliable appliance for home needs.,24,Bangalore
+2,Levis Clothin Model 394,Levis,Clothing,809.86,10,Trendy and comfortable fashion wear.,23,Delhi
+3,Kellogg’s Grocer Model 492,Kellogg’s,Grocery,145.43,10,Fresh and high-quality daily essentials.,40,Bangalore
+4,Panasonic Home Appliance Model 694,Panasonic,Home Appliances,333.21,10,Reliable appliance for home needs.,42,Jaipur
+5,Amul Grocer Model 543,Amul,Grocery,471.56,0,Fresh and high-quality daily essentials.,41,Delhi
+6,Sony Electronic Model 630,Sony,Electronics,764.54,5,Latest tech gadget with advanced features.,34,Delhi
+7,Hasbro Toy Model 730,Hasbro,Toys,170.74,5,Fun and educational toys for children.,18,Chennai
+8,Whirlpool Home Appliance Model 809,Whirlpool,Home Appliances,964.9,0,Reliable appliance for home needs.,11,Jaipur
+9,Nike Clothin Model 863,Nike,Clothing,283.66,5,Trendy and comfortable fashion wear.,1,Bangalore
+10,Levis Clothin Model 872,Levis,Clothing,373.12,5,Trendy and comfortable fashion wear.,6,Delhi
+11,Penguin Book Model 734,Penguin,Books,416.51,0,Engaging read from a renowned publisher.,31,Chennai
+12,Lego Toy Model 717,Lego,Toys,563.13,15,Fun and educational toys for children.,11,Chennai
+13,Scholastic Book Model 396,Scholastic,Books,437.12,15,Engaging read from a renowned publisher.,25,Jaipur
+14,Hasbro Toy Model 779,Hasbro,Toys,783.55,20,Fun and educational toys for children.,38,Hyderabad
+15,Scholastic Book Model 339,Scholastic,Books,549.68,25,Engaging read from a renowned publisher.,5,Delhi
+16,Funskool Toy Model 947,Funskool,Toys,163.49,10,Fun and educational toys for children.,11,Jaipur
+17,Apple Electronic Model 186,Apple,Electronics,590.5,0,Latest tech gadget with advanced features.,10,Jaipur
+18,Bloomsbury Book Model 865,Bloomsbury,Books,902.07,10,Engaging read from a renowned publisher.,9,Mumbai
+19,Lego Toy Model 432,Lego,Toys,592.29,5,Fun and educational toys for children.,35,Bangalore
+20,Nike Clothin Model 372,Nike,Clothing,442.3,15,Trendy and comfortable fashion wear.,7,Hyderabad
+21,Hasbro Toy Model 956,Hasbro,Toys,254.1,15,Fun and educational toys for children.,10,Delhi
+22,Amul Grocer Model 922,Amul,Grocery,347.71,0,Fresh and high-quality daily essentials.,34,Jaipur
+23,Nike Clothin Model 663,Nike,Clothing,621.16,10,Trendy and comfortable fashion wear.,18,Delhi
+24,Funskool Toy Model 773,Funskool,Toys,945.52,25,Fun and educational toys for children.,39,Delhi
+25,Funskool Toy Model 300,Funskool,Toys,222.39,25,Fun and educational toys for children.,14,Mumbai
+26,Bloomsbury Book Model 543,Bloomsbury,Books,723.03,20,Engaging read from a renowned publisher.,13,Chennai
+27,Penguin Book Model 314,Penguin,Books,906.73,5,Engaging read from a renowned publisher.,20,Jaipur
+28,Bosch Home Appliance Model 878,Bosch,Home Appliances,466.97,25,Reliable appliance for home needs.,22,Delhi
+29,Dell Electronic Model 166,Dell,Electronics,965.31,15,Latest tech gadget with advanced features.,18,Delhi
+30,HarperCollins Book Model 739,HarperCollins,Books,155.77,5,Engaging read from a renowned publisher.,50,Hyderabad
+31,Amul Grocer Model 114,Amul,Grocery,692.69,25,Fresh and high-quality daily essentials.,29,Chennai
+32,Amul Grocer Model 657,Amul,Grocery,650.5,10,Fresh and high-quality daily essentials.,40,Bangalore
+33,Scholastic Book Model 836,Scholastic,Books,483.99,5,Engaging read from a renowned publisher.,22,Mumbai
+34,Bosch Home Appliance Model 779,Bosch,Home Appliances,900.79,5,Reliable appliance for home needs.,36,Delhi
+35,Bloomsbury Book Model 801,Bloomsbury,Books,826.91,15,Engaging read from a renowned publisher.,27,Chennai
+36,Sony Electronic Model 537,Sony,Electronics,374.69,20,Latest tech gadget with advanced features.,15,Bangalore
+37,Amul Grocer Model 851,Amul,Grocery,677.98,20,Fresh and high-quality daily essentials.,8,Hyderabad
+38,Kellogg’s Grocer Model 281,Kellogg’s,Grocery,967.62,5,Fresh and high-quality daily essentials.,5,Delhi
+39,Amul Grocer Model 650,Amul,Grocery,867.48,0,Fresh and high-quality daily essentials.,47,Hyderabad
+40,Whirlpool Home Appliance Model 406,Whirlpool,Home Appliances,618.26,10,Reliable appliance for home needs.,44,Chennai
+41,HarperCollins Book Model 432,HarperCollins,Books,347.29,5,Engaging read from a renowned publisher.,9,Bangalore
+42,Apple Electronic Model 248,Apple,Electronics,747.4,5,Latest tech gadget with advanced features.,20,Delhi
+43,Panasonic Home Appliance Model 732,Panasonic,Home Appliances,344.9,15,Reliable appliance for home needs.,22,Delhi
+44,Amul Grocer Model 142,Amul,Grocery,365.09,20,Fresh and high-quality daily essentials.,1,Delhi
+45,LG Home Appliance Model 369,LG,Home Appliances,897.32,10,Reliable appliance for home needs.,19,Delhi
+46,Penguin Book Model 884,Penguin,Books,674.58,10,Engaging read from a renowned publisher.,26,Jaipur
+47,Lego Toy Model 677,Lego,Toys,102.02,25,Fun and educational toys for children.,15,Hyderabad
+48,Lego Toy Model 936,Lego,Toys,304.41,0,Fun and educational toys for children.,0,Delhi
+49,Adidas Clothin Model 784,Adidas,Clothing,362.62,5,Trendy and comfortable fashion wear.,27,Bangalore
+50,Sony Electronic Model 645,Sony,Electronics,936.34,15,Latest tech gadget with advanced features.,2,Bangalore
+51,Whirlpool Home Appliance Model 364,Whirlpool,Home Appliances,768.26,15,Reliable appliance for home needs.,32,Chennai
+52,Dell Electronic Model 603,Dell,Electronics,635.83,0,Latest tech gadget with advanced features.,27,Jaipur
+53,Tide Grocer Model 252,Tide,Grocery,789.05,20,Fresh and high-quality daily essentials.,45,Hyderabad
+54,Amul Grocer Model 580,Amul,Grocery,929.32,10,Fresh and high-quality daily essentials.,11,Bangalore
+55,Nike Clothin Model 315,Nike,Clothing,901.03,15,Trendy and comfortable fashion wear.,37,Jaipur
+56,Funskool Toy Model 624,Funskool,Toys,641.25,15,Fun and educational toys for children.,21,Hyderabad
+57,HarperCollins Book Model 458,HarperCollins,Books,784.48,0,Engaging read from a renowned publisher.,5,Delhi
+58,Nike Clothin Model 447,Nike,Clothing,298.63,25,Trendy and comfortable fashion wear.,13,Mumbai
+59,Bosch Home Appliance Model 858,Bosch,Home Appliances,345.8,25,Reliable appliance for home needs.,36,Chennai
+60,Tide Grocer Model 216,Tide,Grocery,854.86,10,Fresh and high-quality daily essentials.,31,Hyderabad
+61,Panasonic Home Appliance Model 864,Panasonic,Home Appliances,350.09,15,Reliable appliance for home needs.,16,Jaipur
+62,Nestle Grocer Model 682,Nestle,Grocery,207.31,10,Fresh and high-quality daily essentials.,34,Bangalore
+63,Mattel Toy Model 653,Mattel,Toys,542.94,10,Fun and educational toys for children.,45,Chennai
+64,Sony Electronic Model 756,Sony,Electronics,714.48,5,Latest tech gadget with advanced features.,21,Jaipur
+65,Funskool Toy Model 854,Funskool,Toys,947.32,0,Fun and educational toys for children.,2,Bangalore
+66,Kellogg’s Grocer Model 299,Kellogg’s,Grocery,628.62,5,Fresh and high-quality daily essentials.,36,Chennai
+67,Nestle Grocer Model 648,Nestle,Grocery,683.25,0,Fresh and high-quality daily essentials.,44,Jaipur
+68,Samsung Electronic Model 462,Samsung,Electronics,174.43,15,Latest tech gadget with advanced features.,6,Chennai
+69,Penguin Book Model 579,Penguin,Books,482.4,5,Engaging read from a renowned publisher.,45,Jaipur
+70,Sony Electronic Model 311,Sony,Electronics,784.06,10,Latest tech gadget with advanced features.,20,Mumbai
+71,Amul Grocer Model 751,Amul,Grocery,901.84,15,Fresh and high-quality daily essentials.,43,Mumbai
+72,Amul Grocer Model 327,Amul,Grocery,893.69,10,Fresh and high-quality daily essentials.,22,Bangalore
+73,Bloomsbury Book Model 187,Bloomsbury,Books,172.19,25,Engaging read from a renowned publisher.,0,Delhi
+74,Levis Clothin Model 309,Levis,Clothing,242.75,5,Trendy and comfortable fashion wear.,17,Bangalore
+75,Nike Clothin Model 358,Nike,Clothing,468.63,10,Trendy and comfortable fashion wear.,37,Chennai
+76,Panasonic Home Appliance Model 530,Panasonic,Home Appliances,874.23,20,Reliable appliance for home needs.,21,Jaipur
+77,Zara Clothin Model 472,Zara,Clothing,887.16,15,Trendy and comfortable fashion wear.,17,Hyderabad
+78,Hasbro Toy Model 764,Hasbro,Toys,557.2,5,Fun and educational toys for children.,10,Bangalore
+79,Kellogg’s Grocer Model 380,Kellogg’s,Grocery,351.02,10,Fresh and high-quality daily essentials.,9,Bangalore
+80,Zara Clothin Model 716,Zara,Clothing,922.93,5,Trendy and comfortable fashion wear.,45,Jaipur
+81,Kellogg’s Grocer Model 635,Kellogg’s,Grocery,900.69,5,Fresh and high-quality daily essentials.,5,Mumbai
+82,LG Home Appliance Model 955,LG,Home Appliances,431.17,0,Reliable appliance for home needs.,33,Chennai
+83,Adidas Clothin Model 867,Adidas,Clothing,424.47,10,Trendy and comfortable fashion wear.,13,Mumbai
+84,Levis Clothin Model 829,Levis,Clothing,631.22,20,Trendy and comfortable fashion wear.,10,Bangalore
+85,Bosch Home Appliance Model 688,Bosch,Home Appliances,666.15,25,Reliable appliance for home needs.,4,Delhi
+86,Hasbro Toy Model 568,Hasbro,Toys,507.2,15,Fun and educational toys for children.,11,Mumbai
+87,Whirlpool Home Appliance Model 688,Whirlpool,Home Appliances,190.09,25,Reliable appliance for home needs.,18,Bangalore
+88,Scholastic Book Model 200,Scholastic,Books,351.16,25,Engaging read from a renowned publisher.,29,Bangalore
+89,Amul Grocer Model 362,Amul,Grocery,949.29,5,Fresh and high-quality daily essentials.,28,Jaipur
+90,Adidas Clothin Model 992,Adidas,Clothing,189.55,25,Trendy and comfortable fashion wear.,48,Jaipur
+91,Nestle Grocer Model 716,Nestle,Grocery,175.33,0,Fresh and high-quality daily essentials.,35,Chennai
+92,Sony Electronic Model 920,Sony,Electronics,735.25,15,Latest tech gadget with advanced features.,18,Delhi
+93,HarperCollins Book Model 885,HarperCollins,Books,693.4,20,Engaging read from a renowned publisher.,40,Bangalore
+94,Samsung Electronic Model 229,Samsung,Electronics,976.36,10,Latest tech gadget with advanced features.,42,Jaipur
+95,Apple Electronic Model 237,Apple,Electronics,656.93,10,Latest tech gadget with advanced features.,7,Bangalore
+96,Lego Toy Model 429,Lego,Toys,907.96,25,Fun and educational toys for children.,46,Mumbai
+97,Bloomsbury Book Model 944,Bloomsbury,Books,296.33,15,Engaging read from a renowned publisher.,28,Bangalore
+98,Penguin Book Model 285,Penguin,Books,565.51,5,Engaging read from a renowned publisher.,8,Chennai
+99,LG Home Appliance Model 479,LG,Home Appliances,126.17,15,Reliable appliance for home needs.,31,Chennai
+100,Samsung Electronic Model 390,Samsung,Electronics,356.27,25,Latest tech gadget with advanced features.,38,Bangalore
+101,LG Home Appliance Model 444,LG,Home Appliances,910.69,10,Reliable appliance for home needs.,33,Delhi
+102,Sony Electronic Model 476,Sony,Electronics,444.17,25,Latest tech gadget with advanced features.,27,Bangalore
+103,Dell Electronic Model 889,Dell,Electronics,794.1,10,Latest tech gadget with advanced features.,25,Jaipur
+104,Tide Grocer Model 582,Tide,Grocery,632.46,15,Fresh and high-quality daily essentials.,28,Jaipur
+105,Whirlpool Home Appliance Model 502,Whirlpool,Home Appliances,459.87,25,Reliable appliance for home needs.,50,Jaipur
+106,Levis Clothin Model 346,Levis,Clothing,178.14,15,Trendy and comfortable fashion wear.,4,Chennai
+107,Funskool Toy Model 335,Funskool,Toys,584.31,5,Fun and educational toys for children.,11,Bangalore
+108,HarperCollins Book Model 516,HarperCollins,Books,169.51,10,Engaging read from a renowned publisher.,33,Chennai
+109,HarperCollins Book Model 189,HarperCollins,Books,742.62,5,Engaging read from a renowned publisher.,1,Delhi
+110,Sony Electronic Model 543,Sony,Electronics,938.3,5,Latest tech gadget with advanced features.,22,Mumbai
+111,Samsung Electronic Model 625,Samsung,Electronics,701.06,0,Latest tech gadget with advanced features.,49,Bangalore
+112,Panasonic Home Appliance Model 473,Panasonic,Home Appliances,405.9,20,Reliable appliance for home needs.,18,Delhi
+113,Adidas Clothin Model 236,Adidas,Clothing,937.48,20,Trendy and comfortable fashion wear.,10,Jaipur
+114,Lego Toy Model 132,Lego,Toys,172.57,5,Fun and educational toys for children.,15,Bangalore
+115,Tide Grocer Model 297,Tide,Grocery,477.34,20,Fresh and high-quality daily essentials.,10,Bangalore
+116,Bloomsbury Book Model 982,Bloomsbury,Books,893.03,0,Engaging read from a renowned publisher.,4,Jaipur
+117,LG Home Appliance Model 636,LG,Home Appliances,449.23,10,Reliable appliance for home needs.,24,Delhi
+118,Dell Electronic Model 573,Dell,Electronics,549.35,25,Latest tech gadget with advanced features.,38,Jaipur
+119,Samsung Electronic Model 354,Samsung,Electronics,895.01,15,Latest tech gadget with advanced features.,31,Delhi
+120,Nike Clothin Model 124,Nike,Clothing,743.67,25,Trendy and comfortable fashion wear.,8,Bangalore
+121,Sony Electronic Model 876,Sony,Electronics,225.79,15,Latest tech gadget with advanced features.,24,Delhi
+122,Amul Grocer Model 689,Amul,Grocery,211.27,20,Fresh and high-quality daily essentials.,4,Delhi
+123,Mattel Toy Model 246,Mattel,Toys,103.8,15,Fun and educational toys for children.,9,Bangalore
+124,Panasonic Home Appliance Model 543,Panasonic,Home Appliances,532.91,20,Reliable appliance for home needs.,39,Hyderabad
+125,Penguin Book Model 352,Penguin,Books,845.11,0,Engaging read from a renowned publisher.,7,Jaipur
+126,Dell Electronic Model 369,Dell,Electronics,258.51,5,Latest tech gadget with advanced features.,0,Jaipur
+127,Hasbro Toy Model 528,Hasbro,Toys,734.35,15,Fun and educational toys for children.,17,Mumbai
+128,LG Home Appliance Model 397,LG,Home Appliances,338.21,10,Reliable appliance for home needs.,14,Mumbai
+129,Lego Toy Model 773,Lego,Toys,895.7,0,Fun and educational toys for children.,24,Hyderabad
+130,Sony Electronic Model 898,Sony,Electronics,262.17,5,Latest tech gadget with advanced features.,0,Delhi
+131,HarperCollins Book Model 294,HarperCollins,Books,308.97,10,Engaging read from a renowned publisher.,31,Mumbai
+132,Funskool Toy Model 373,Funskool,Toys,210.91,15,Fun and educational toys for children.,2,Chennai
+133,Mattel Toy Model 844,Mattel,Toys,689.53,20,Fun and educational toys for children.,41,Mumbai
+134,Zara Clothin Model 731,Zara,Clothing,946.72,10,Trendy and comfortable fashion wear.,47,Hyderabad
+135,Apple Electronic Model 865,Apple,Electronics,190.29,25,Latest tech gadget with advanced features.,45,Hyderabad
+136,Nestle Grocer Model 629,Nestle,Grocery,521.44,20,Fresh and high-quality daily essentials.,31,Jaipur
+137,Penguin Book Model 412,Penguin,Books,244.12,20,Engaging read from a renowned publisher.,13,Chennai
+138,Mattel Toy Model 918,Mattel,Toys,543.62,10,Fun and educational toys for children.,1,Bangalore
+139,HarperCollins Book Model 279,HarperCollins,Books,706.6,0,Engaging read from a renowned publisher.,30,Mumbai
+140,Apple Electronic Model 446,Apple,Electronics,320.47,0,Latest tech gadget with advanced features.,2,Jaipur
+141,Adidas Clothin Model 834,Adidas,Clothing,325.31,10,Trendy and comfortable fashion wear.,31,Delhi
+142,Amul Grocer Model 164,Amul,Grocery,565.48,10,Fresh and high-quality daily essentials.,47,Chennai
+143,Apple Electronic Model 904,Apple,Electronics,301.42,25,Latest tech gadget with advanced features.,35,Hyderabad
+144,Nike Clothin Model 827,Nike,Clothing,795.2,15,Trendy and comfortable fashion wear.,28,Chennai
+145,Hasbro Toy Model 630,Hasbro,Toys,759.88,5,Fun and educational toys for children.,9,Delhi
+146,Panasonic Home Appliance Model 840,Panasonic,Home Appliances,523.35,5,Reliable appliance for home needs.,18,Mumbai
+147,Levis Clothin Model 362,Levis,Clothing,302.66,10,Trendy and comfortable fashion wear.,31,Mumbai
+148,Amul Grocer Model 193,Amul,Grocery,896.13,0,Fresh and high-quality daily essentials.,30,Mumbai
+149,Scholastic Book Model 209,Scholastic,Books,166.17,15,Engaging read from a renowned publisher.,11,Jaipur
+150,Bosch Home Appliance Model 128,Bosch,Home Appliances,758.03,25,Reliable appliance for home needs.,48,Hyderabad
+151,Nestle Grocer Model 511,Nestle,Grocery,553.98,0,Fresh and high-quality daily essentials.,45,Chennai
+152,Sony Electronic Model 795,Sony,Electronics,363.91,25,Latest tech gadget with advanced features.,20,Delhi
+153,Bosch Home Appliance Model 679,Bosch,Home Appliances,365.3,25,Reliable appliance for home needs.,30,Jaipur
+154,Sony Electronic Model 124,Sony,Electronics,353.14,15,Latest tech gadget with advanced features.,41,Bangalore
+155,Levis Clothin Model 318,Levis,Clothing,493.44,5,Trendy and comfortable fashion wear.,40,Bangalore
+156,Mattel Toy Model 133,Mattel,Toys,668.04,0,Fun and educational toys for children.,42,Delhi
+157,Dell Electronic Model 418,Dell,Electronics,573.1,20,Latest tech gadget with advanced features.,44,Delhi
+158,Adidas Clothin Model 251,Adidas,Clothing,540.04,0,Trendy and comfortable fashion wear.,13,Bangalore
+159,Nike Clothin Model 133,Nike,Clothing,131.49,15,Trendy and comfortable fashion wear.,24,Chennai
+160,Amul Grocer Model 755,Amul,Grocery,251.74,15,Fresh and high-quality daily essentials.,0,Delhi
+161,Dell Electronic Model 800,Dell,Electronics,284.14,20,Latest tech gadget with advanced features.,21,Mumbai
+162,Adidas Clothin Model 512,Adidas,Clothing,472.9,15,Trendy and comfortable fashion wear.,20,Mumbai
+163,Whirlpool Home Appliance Model 447,Whirlpool,Home Appliances,309.91,25,Reliable appliance for home needs.,27,Bangalore
+164,HarperCollins Book Model 916,HarperCollins,Books,838.85,0,Engaging read from a renowned publisher.,2,Chennai
+165,Zara Clothin Model 141,Zara,Clothing,231.13,20,Trendy and comfortable fashion wear.,28,Hyderabad
+166,Funskool Toy Model 667,Funskool,Toys,857.21,10,Fun and educational toys for children.,11,Chennai
+167,Nike Clothin Model 755,Nike,Clothing,273.54,15,Trendy and comfortable fashion wear.,4,Bangalore
+168,Whirlpool Home Appliance Model 121,Whirlpool,Home Appliances,453.32,5,Reliable appliance for home needs.,30,Chennai
+169,Amul Grocer Model 699,Amul,Grocery,280.5,20,Fresh and high-quality daily essentials.,8,Chennai
+170,Nestle Grocer Model 970,Nestle,Grocery,732.7,5,Fresh and high-quality daily essentials.,22,Chennai
+171,Amul Grocer Model 632,Amul,Grocery,362.66,25,Fresh and high-quality daily essentials.,27,Jaipur
+172,Levis Clothin Model 354,Levis,Clothing,192.33,20,Trendy and comfortable fashion wear.,32,Mumbai
+173,Samsung Electronic Model 983,Samsung,Electronics,954.43,10,Latest tech gadget with advanced features.,11,Delhi
+174,Panasonic Home Appliance Model 174,Panasonic,Home Appliances,898.16,10,Reliable appliance for home needs.,44,Bangalore
+175,Hasbro Toy Model 246,Hasbro,Toys,333.5,0,Fun and educational toys for children.,16,Jaipur
+176,Scholastic Book Model 822,Scholastic,Books,434.2,0,Engaging read from a renowned publisher.,30,Bangalore
+177,Tide Grocer Model 211,Tide,Grocery,458.74,5,Fresh and high-quality daily essentials.,38,Chennai
+178,Hasbro Toy Model 563,Hasbro,Toys,297.52,0,Fun and educational toys for children.,19,Delhi
+179,Hasbro Toy Model 368,Hasbro,Toys,551.36,5,Fun and educational toys for children.,8,Bangalore
+180,Mattel Toy Model 280,Mattel,Toys,594.02,10,Fun and educational toys for children.,26,Chennai
+181,Nestle Grocer Model 113,Nestle,Grocery,554.46,25,Fresh and high-quality daily essentials.,35,Mumbai
+182,Tide Grocer Model 450,Tide,Grocery,993.83,25,Fresh and high-quality daily essentials.,44,Delhi
+183,Nike Clothin Model 640,Nike,Clothing,613.4,5,Trendy and comfortable fashion wear.,0,Bangalore
+184,Mattel Toy Model 602,Mattel,Toys,620.6,0,Fun and educational toys for children.,9,Chennai
+185,Whirlpool Home Appliance Model 272,Whirlpool,Home Appliances,333.11,25,Reliable appliance for home needs.,20,Delhi
+186,Hasbro Toy Model 859,Hasbro,Toys,824.02,15,Fun and educational toys for children.,11,Bangalore
+187,Zara Clothin Model 853,Zara,Clothing,783.61,20,Trendy and comfortable fashion wear.,43,Hyderabad
+188,Bosch Home Appliance Model 139,Bosch,Home Appliances,578.41,5,Reliable appliance for home needs.,1,Chennai
+189,Bosch Home Appliance Model 738,Bosch,Home Appliances,114.63,5,Reliable appliance for home needs.,18,Chennai
+190,Nike Clothin Model 375,Nike,Clothing,821.18,15,Trendy and comfortable fashion wear.,13,Bangalore
+191,Panasonic Home Appliance Model 646,Panasonic,Home Appliances,600.58,15,Reliable appliance for home needs.,20,Hyderabad
+192,Amul Grocer Model 249,Amul,Grocery,158.19,0,Fresh and high-quality daily essentials.,13,Mumbai
+193,Bloomsbury Book Model 142,Bloomsbury,Books,775.92,5,Engaging read from a renowned publisher.,41,Hyderabad
+194,Nike Clothin Model 675,Nike,Clothing,178.44,15,Trendy and comfortable fashion wear.,34,Hyderabad
+195,Dell Electronic Model 945,Dell,Electronics,579.69,10,Latest tech gadget with advanced features.,49,Delhi
+196,Panasonic Home Appliance Model 412,Panasonic,Home Appliances,526.39,5,Reliable appliance for home needs.,44,Jaipur
+197,Lego Toy Model 938,Lego,Toys,513.51,0,Fun and educational toys for children.,25,Mumbai
+198,HarperCollins Book Model 151,HarperCollins,Books,531.79,25,Engaging read from a renowned publisher.,6,Hyderabad
+199,LG Home Appliance Model 111,LG,Home Appliances,158.79,0,Reliable appliance for home needs.,25,Bangalore
+200,LG Home Appliance Model 856,LG,Home Appliances,942.48,5,Reliable appliance for home needs.,8,Chennai
