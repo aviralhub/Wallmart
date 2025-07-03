@@ -1,8 +1,9 @@
-streamlit
+fastapi
+uvicorn
 pandas
-python-dotenv
 numpy
 scikit-learn
+python-dotenv
 sentence-transformers
 langchain
 langchain-google-genai
