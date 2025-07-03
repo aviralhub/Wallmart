@@ -1,26 +1,24 @@
-import streamlit as st
+from fastapi import FastAPI, Request
+from pydantic import BaseModel
+from typing import List, Optional
 import pandas as pd
+import numpy as np
 import os
 from dotenv import load_dotenv
-import numpy as np
-from sklearn.metrics.pairwise import cosine_similarity
-
 from sentence_transformers import SentenceTransformer
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_core.prompts import PromptTemplate
+from sklearn.metrics.pairwise import cosine_similarity
 
-# ------------------ Load env ------------------
+# ---------------------- Config ----------------------
 load_dotenv()
 GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
-
-# ------------------ Constants ------------------
-EMBEDDING_MODEL = "all-MiniLM-L6-v2"
 CSV_PATH = "./walmart_products.csv"
+EMBEDDING_MODEL = "all-MiniLM-L6-v2"
 
-# ------------------ Streamlit Config ------------------
-st.set_page_config(page_title="Walmart Product Assistant", page_icon="🛒", layout="wide")
+app = FastAPI()
 
-# ------------------ Simple Vector Store ------------------
+# ---------------------- Data & Model ----------------------
 class SimpleVectorStore:
     def __init__(self):
         self.documents, self.embeddings, self.metadatas, self.ids = [], [], [], []
@@ -36,25 +34,16 @@ class SimpleVectorStore:
             i for i, metadata in enumerate(self.metadatas)
             if all(metadata.get(k) == v for k, v in (where or {}).items())
         ]
-
         if not filtered_indices:
             return {"documents": [[]], "distances": [[]]}
-
         filtered_embeddings = [self.embeddings[i] for i in filtered_indices]
         similarities = cosine_similarity([query_embedding], filtered_embeddings)[0]
         top_indices = np.argsort(similarities)[::-1][:n_results]
-
         return {
             "documents": [[self.documents[filtered_indices[i]] for i in top_indices]],
             "distances": [[1 - similarities[i] for i in top_indices]]
         }
 
-# ------------------ Caching ------------------
-@st.cache_resource
-def load_model():
-    return SentenceTransformer(EMBEDDING_MODEL)
-
-@st.cache_data
 def load_data():
     df = pd.read_csv(CSV_PATH)
     docs = [
@@ -69,32 +58,20 @@ def load_data():
     ]
     return df, docs, metas
 
-@st.cache_resource
-def setup_vector_store():
-    df, docs, metas = load_data()
-    model = load_model()
-    embeddings = model.encode(docs).tolist()
-    vs = SimpleVectorStore()
-    vs.add(docs, embeddings, metas, [f"prod_{i}" for i in range(len(docs))])
-    return vs
+model = SentenceTransformer(EMBEDDING_MODEL)
+df, documents, metadatas = load_data()
+vector_store = SimpleVectorStore()
+vector_store.add(documents, model.encode(documents).tolist(), metadatas, [f"prod_{i}" for i in range(len(documents))])
 
-@st.cache_resource
-def setup_llm():
-    if not GOOGLE_API_KEY:
-        st.error("Google API Key missing!")
-        return None
-    return ChatGoogleGenerativeAI(
-        model="gemini-1.5-flash-latest",
-        google_api_key=GOOGLE_API_KEY,
-        temperature=0.3
-    )
+llm = ChatGoogleGenerativeAI(
+    model="gemini-1.5-flash-latest",
+    google_api_key=GOOGLE_API_KEY,
+    temperature=0.3
+)
 
-@st.cache_resource
-def setup_rag_chain():
-    llm = setup_llm()
-    prompt = PromptTemplate(
-        input_variables=["context", "question"],
-        template="""
+prompt_template = PromptTemplate(
+    input_variables=["context", "question"],
+    template="""
 You are a helpful assistant for Walmart store data.
 Use the following context to answer the user's question.
 Answer in 1-2 lines by greeting the customer with meow.
@@ -107,52 +84,42 @@ Question:
 
 Answer:
 """
-    )
-    return prompt | llm
+)
 
-# ------------------ Main App ------------------
-def main():
-    st.title("🛒 Walmart Product Assistant")
-    st.markdown("Ask me anything about Walmart products!")
+rag_chain = prompt_template | llm
 
-    if not os.path.exists(CSV_PATH):
-        st.error("CSV file not found!")
-        return
-    if not GOOGLE_API_KEY:
-        st.error("Google API Key not found in environment!")
-        return
+# ---------------------- API Schema ----------------------
+class QueryRequest(BaseModel):
+    question: str
+    store: Optional[str] = None
 
-    df, _, _ = load_data()
-    model = load_model()
-    vs = setup_vector_store()
-    rag = setup_rag_chain()
+class QueryResponse(BaseModel):
+    answer: str
+    matched_products: List[str]
 
-    stores = df['store_location'].unique().tolist()
-    with st.sidebar:
-        selected_store = st.selectbox("🏬 Select a store:", stores)
-        st.metric("Total Products", len(df[df['store_location'] == selected_store]))
+# ---------------------- API Endpoint ----------------------
+@app.post("/ask", response_model=QueryResponse)
+def ask_question(req: QueryRequest):
+    try:
+        # Encode user query
+        query_emb = model.encode([req.question])[0]
+        where_filter = {"store": req.store} if req.store else None
+        results = vector_store.query(query_embedding=query_emb, where=where_filter)
+        context_chunks = results["documents"][0]
+        if not context_chunks:
+            return QueryResponse(answer="Meow! Sorry, no matching products found.", matched_products=[])
 
-    st.header(f"💬 Ask about {selected_store} store")
+        context = "\n".join(context_chunks)
+        response = rag_chain.invoke({
+            "context": context,
+            "question": req.question
+        })
+        answer = response.content if hasattr(response, 'content') else str(response)
 
-    user_question = st.text_input("Your question:", "")
-    if st.button("Ask") and user_question:
-        with st.spinner("Searching..."):
-            query_embedding = model.encode([user_question])[0]
-            results = vs.query(query_embedding, where={"store": selected_store})
-            chunks = results["documents"][0]
-            if not chunks:
-                st.warning("No results found.")
-                return
-            context = "\n".join(chunks)
-            response = rag.invoke({"context": context, "question": user_question})
-            answer = response.content if hasattr(response, 'content') else str(response)
-            st.success("✅ Answer:")
-            st.write(answer)
+        return QueryResponse(answer=answer, matched_products=context_chunks)
+    except Exception as e:
+        return QueryResponse(answer=f"Error: {str(e)}", matched_products=[])
 
-            with st.expander("📄 Product Matches"):
-                for i, doc in enumerate(chunks, 1):
-                    st.markdown(f"**Match {i}:** {doc}")
-                    st.divider()
-
-if __name__ == "__main__":
-    main()
+@app.get("/")
+def root():
+    return {"status": "Walmart Product API is live."}
