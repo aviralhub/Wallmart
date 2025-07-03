@@ -1,9 +1,9 @@
 services:
   - type: web
-    name: walmart-streamlit-app
+    name: walmart-api
     env: python
     buildCommand: pip install -r requirements.txt
-    startCommand: streamlit run main.py --server.port $PORT --server.address 0.0.0.0
+    startCommand: uvicorn main:app --host 0.0.0.0 --port $PORT
     envVars:
       - key: GOOGLE_API_KEY
         sync: false
